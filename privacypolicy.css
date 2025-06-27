@@ -1,0 +1,41 @@
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+    font-size: 3em; /* Larger heading */
+    font-weight: 600; /* Moderate bold */
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #444; /* Darker for contrast */
+    font-size: 1.5em; /* Larger subheading */
+    font-weight: 600; /* Moderate bold */
+}
+
+.section {
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Slightly larger body text */
+    font-weight: 500; /* Light bold */
+}
+
+.policy-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #28a745;
+    background-color: #f9f9f9;
+    font-weight: 500; /* Light bold */
+}
+
+.policy-item p {
+    color: #555;
+}

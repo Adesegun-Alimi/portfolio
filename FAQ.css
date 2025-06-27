@@ -1,0 +1,21 @@
+/* FAQ-specific styling */
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #28a745;
+    background-color: #f9f9f9;
+    font-weight: 500; /* Light bold */
+}
+
+
+details summary {
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 5px;
+    list-style: none; /* Remove default marker */
+}
+
+.faq-answer {
+    padding-left: 10px;
+    color: #555;
+}
