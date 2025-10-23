@@ -1,35 +1,85 @@
+/* === General Styling === */
+body {
+  background: radial-gradient(circle, green 30%, white 100%);
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Container === */
 .container {
-    background-color: rgb(124, 166, 65);
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
+  background-color: rgb(124, 166, 65);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-body{
- background: radial-gradient(circle, green 30%, white 100%);
-}
-
+/* === Headings === */
 h1 {
-    font-size: 3em; /* Larger heading */
-    font-weight: 600; /* Moderate bold */
-    font-style: italic;
-    text-align: center;
-    margin: 20px 0;
-    color: #333;
+  font-size: 3em;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 0 40px;
+  color: #222;
 }
 
 .section {
-     font-size: 1.5em; /* Larger subheading */
-    font-weight: 600; /* Moderate bold */
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
 }
 
+/* === Project Items === */
 .project-item {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Project Headings === */
+.project-item h3 {
+  color: #2e4600;
+  margin-bottom: 10px;
+}
+
+.project-item a {
+  color: #004aad;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .section {
+    font-size: 1em;
+  }
+
+  .project-item {
+    padding: 15px;
+  }
 }
