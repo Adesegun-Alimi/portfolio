@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skills | CodeByGideon</title>
+  <link rel="stylesheet" href="skills.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Skills and technologies used by Gideon — HTML, CSS, JavaScript, React, Git.">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="page-header">
+  <p class="back-link"><a href="index.html" onclick="event.preventDefault(); if (history.length>1) { history.back(); } else { location.href='index.html'; }">← Back to Home</a></p>
+    <h1>My <span>Skills</span></h1>
+    <p>These are the technologies and tools I use to build modern, accessible websites.</p>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="skills-grid" aria-label="Skills list">
+
+      <div class="skill">
+        <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo">
+        <h3>HTML5</h3>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" aria-label="HTML5 proficiency">
+          <div class="progress html"></div>
+          <span class="sr-only">95 percent</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo">
+        <h3>CSS3</h3>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" aria-label="CSS3 proficiency">
+          <div class="progress css"></div>
+          <span class="sr-only">90 percent</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+        <h3>JavaScript</h3>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" aria-label="JavaScript proficiency">
+          <div class="progress js"></div>
+          <span class="sr-only">80 percent</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo">
+        <h3>React</h3>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" aria-label="React proficiency">
+          <div class="progress react"></div>
+          <span class="sr-only">75 percent</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo">
+        <h3>Git & GitHub</h3>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" aria-label="Git proficiency">
+          <div class="progress git"></div>
+          <span class="sr-only">85 percent</span>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <!-- simple footer to keep pages consistent -->
+    <p style="text-align:center;color:#666;padding:40px 0;margin:0">© 2025 CodebyGideon</p>
+  </footer>
+
+</body>
+</html>
